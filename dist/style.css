@@ -1,0 +1,78 @@
+
+/* DEFAULT HOMEPAGE */
+
+.items-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: greenyellow;
+    height: 100vh;
+}
+
+.homepage-title {
+    font-size: 4rem;
+}
+
+.newProjectCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    height: 315px;
+    border: solid black;
+    border-radius: 10px;
+    background-color: #f4e9e9;
+}
+
+.plus-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: dashed darkslategrey;
+    border-radius: 10px;
+    width: 110px;
+    height: 110px;
+}
+
+.plus {
+    font-size: 4rem;
+}
+
+.newProjectText{
+    color: black;
+    font-size: 1rem;
+}
+
+/* MAIN PAGE */
+
+#main-container{
+    width: auto;
+    height: 100vh;
+    background-color: blue;
+}
+.secondary-container{
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    width: inherit;
+}
+
+.projects{
+    background-color: gray;
+    height: 100%;
+    border-radius: 10px;
+    grid-column: 2 / 5;
+    grid-row: 3 / 14;
+}
+
+.items{
+    background-color: gray;
+    height: 100%;
+    border-radius: 10px;
+    grid-column: 6 / 16;
+    grid-row: 3 / 14;
+}
